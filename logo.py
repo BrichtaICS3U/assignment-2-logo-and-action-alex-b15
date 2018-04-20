@@ -1,6 +1,6 @@
 # ICS3U
 # Assignment 2: Logo
-# <your name>
+# <ALex Baksh>
 
 # adapted from http://www.101computing.net/getting-started-with-pygame/
 
@@ -49,7 +49,10 @@ while carryOn:
     # Queue different shapes and lines to be drawn
     # pygame.draw.rect(screen, RED, [55, 200, 100, 70], 0)
     # pygame.draw.line(screen, GREEN, [0, 0], [100, 100], 5)
-    # pygame.draw.ellipse(screen, BLACK, [20, 20, 250, 100], 2)
+    pygame.draw.ellipse(screen, RED, [20, 20, 360, 360], 0)
+    pygame.draw.ellipse(screen, WHITE, [110, 110, 180, 180], 0)
+    pygame.draw.ellipse(screen, RED, [150, 150, 100, 100], 0)
+    pygame.draw.rect(screen, WHITE, [111, 25, 40, 190], 0)
 
     # Update the screen with queued shapes
     pygame.display.flip()
